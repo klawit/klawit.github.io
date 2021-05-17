@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Żaby</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header><a href="https://pl.wikipedia.org/wiki/%C5%BBabowate">Żaby</a></header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Strona główna</a></li>
+                <li><a href="look.html" target="_blank">Wygląd</a></li>
+                <li><a href="gallery.html" target="_blank">Galeria Zdjęć</a></li>
+                <li><a href="form.html" target="_blank">Ankieta</a></li>
+            </ul>
+        </nav>
+
+        <form action="ankieta" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="imie">Imię
+                            <input type="text" name="imie" size="20">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="nazwisko">Nazwisko
+                            <input type="text" name="nazwisko" size="20">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="wiek">Wiek
+                            <input type="number" name="wiek">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="zaba">Ulubiony gatunek żaby występującej w Polsce
+                            <select name="zaba">
+                                <option>Kumak Nizinny</option>
+                                <option>Kumak Górski</option>
+                                <option>Grzebuiszka Ziemna</option>
+                                <option>Ropucha Szara</option>
+                                <option>Ropucha Paskówka</option>
+                                <option>Ropucha Zielona</option>
+                                <option>Rzekotka Drzewna</option>
+                                <option>Rzekotka Wschodnia</option>
+                                <option>Żaba Wodna</option>
+                                <option>Żaba Jeziorkowa</option>
+                                <option>Żaba Śmieszka</option>
+                                <option>Żaba Moczarowa</option>
+                                <option>Żaba Zwinka</option>
+                                <option>Żaba Trawna</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="button" value="Wyślij">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <footer>
+            Antoni Kłosowski &nbsp; Kwiecień 2021 &trade;
+        </footer>
+    </body>
+</html>
